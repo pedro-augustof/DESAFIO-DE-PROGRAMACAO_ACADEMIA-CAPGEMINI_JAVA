@@ -16,6 +16,7 @@ public class Anagrama {
         char ci, cj;
 
         String wd = input.nextLine().toLowerCase();
+        input.close();
         qtd = wd.length();
         
         for (i = 0; i < qtd; i++) {

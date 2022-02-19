@@ -19,6 +19,7 @@ public class Escada {
 
         System.out.printf("n=");
         n = input.nextInt();
+        input.close();
 
         if (n <= 8 && n >= 1)
         {

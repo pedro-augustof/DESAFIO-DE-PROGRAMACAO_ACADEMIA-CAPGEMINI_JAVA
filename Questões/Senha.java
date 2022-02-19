@@ -21,6 +21,7 @@ public class Senha {
         char car, care;
     
         pw = input.nextLine();
+        input.close();
         qtd = pw.length();
         
         for (i = 0; i < qtd; i++) {
